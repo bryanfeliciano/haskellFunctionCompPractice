@@ -35,3 +35,6 @@
 
 -- ifEvenSquare :: Int -> Int 
 -- ifEvenSquare n = if even n then n ^ 2 else n 
+
+-- descendingOrder :: Integer -> Integer
+-- descendingOrder  = sort.reverse.show
