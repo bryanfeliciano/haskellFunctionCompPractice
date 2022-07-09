@@ -38,3 +38,12 @@
 
 -- descendingOrder :: Integer -> Integer
 -- descendingOrder  = sort.reverse.show
+
+-- intCheckMod :: Integer -> String
+-- intCheckMod v | (even v) = "even"
+--               | otherwise = "odd"
+
+-- boolToWord :: Bool -> String
+-- boolToWord x 
+--     |(x == True) = "Yes"
+--     | otherwise = "No"
