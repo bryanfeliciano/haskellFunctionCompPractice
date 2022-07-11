@@ -1,3 +1,4 @@
+
 -- calcChange :: Integer -> Integer -> Integer
 -- calcChange owed given = if change > 0 then change else 0
 --    where 
@@ -47,3 +48,9 @@
 -- boolToWord x 
 --     |(x == True) = "Yes"
 --     | otherwise = "No"
+
+-- fizzBuzz :: Int -> String 
+-- fizzBuzz x
+--     |(x `mod` 3 == 0) = "Fizz"
+--     |(x `mod` 5 == 0) = "Buzz"
+--     |otherwise = "no buzz"
