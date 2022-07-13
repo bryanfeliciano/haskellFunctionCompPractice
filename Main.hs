@@ -54,3 +54,8 @@
 --     |(x `mod` 3 == 0) = "Fizz"
 --     |(x `mod` 5 == 0) = "Buzz"
 --     |otherwise = "no buzz"
+
+-- validate :: String -> Maybe String
+-- validate x
+--     |not (null x) = Just "Valid"
+--     |otherwise = Nothing
