@@ -59,3 +59,10 @@
 -- validate x
 --     |not (null x) = Just "Valid"
 --     |otherwise = Nothing
+
+-- vendingMachineInventory = ["pepsi","coke"]
+
+-- dispense ::(Eq) => String -> vendingMachineInventory -> String
+-- dispense x
+--     |(x == any (vendingMachineInventory)) = "Drink dispensed"
+--     | otherwise = "drink not available"
