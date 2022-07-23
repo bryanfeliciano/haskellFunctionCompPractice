@@ -66,3 +66,6 @@
 -- dispense x
 --     |(x == any (vendingMachineInventory)) = "Drink dispensed"
 --     | otherwise = "drink not available"
+
+-- Monad transformer implementation
+  -- Custom Bind 
